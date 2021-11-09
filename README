@@ -1,0 +1,3 @@
+This python code uses PYQT5 libraries to recreate a normal question and answer input/output platform. 
+The thought was to create as many frames as one wants in a "brute-force" method.
+A better way of creating this would be to have one frame that loops through an array of questions so that the code may use less memory.

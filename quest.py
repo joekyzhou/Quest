@@ -4,7 +4,7 @@ Created on Mon Nov  1 16:31:32 2021
 
 @author: joeky
 
-Program to ask someone out
+Program to ask specific questions
 """
 import sys
 from PyQt5.QtWidgets import *
@@ -130,7 +130,7 @@ def create_buttons3(answer, l_margin, r_margin):
 def frame1():
 #display logo
     logo = QLabel()
-    logo.setText("Jamie's Epic Quest")
+    logo.setText("Epic Quest")
     logo.setAlignment(QtCore.Qt.AlignCenter)
     logo.setStyleSheet(
         "font-size: 40px;"+

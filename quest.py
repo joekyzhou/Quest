@@ -130,7 +130,7 @@ def create_buttons3(answer, l_margin, r_margin):
 def frame1():
 #display logo
     logo = QLabel()
-    logo.setText("Epic Quest")
+    logo.setText("Epic Food Quest")
     logo.setAlignment(QtCore.Qt.AlignCenter)
     logo.setStyleSheet(
         "font-size: 40px;"+
